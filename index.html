@@ -5,16 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EnderHub v0.1</title>
 <link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.0.0/dist/supabase.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.0.0/dist/supabase.min.js" defer></script>
 <script src="client.js" defer></script>
+<link rel="icon" href="favicon.ico">
 </head>
 <body>
 <div class="container">
   <h1>EnderHub Chat + Video</h1>
   <div id="video-container">
-    <!-- YouTube mirror / offline video -->
+    <!-- Invidious mirror embed -->
     <iframe width="560" height="315" 
-      src="https://yewtu.be/VIDEO_ID" 
+      src="https://invidious.nerdvpn.de/watch?v=VIDEO_ID" 
       title="Video" frameborder="0" allowfullscreen></iframe>
   </div>
 
