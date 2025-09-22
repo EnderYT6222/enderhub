@@ -1,0 +1,8 @@
+body { font-family: sans-serif; background:#111; color:#eee; margin:0; padding:0; }
+.container { max-width:600px; margin:30px auto; padding:10px; }
+h1 { text-align:center; }
+#video-container { text-align:center; margin-bottom:20px; }
+.chat-container { border:1px solid #333; padding:10px; }
+.messages { height:300px; overflow-y:auto; border-bottom:1px solid #333; margin-bottom:10px; }
+input { width:70%; padding:5px; }
+button { width:25%; padding:5px; }
